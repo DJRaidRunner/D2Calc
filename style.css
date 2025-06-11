@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+select {
+  font-size: 1em;
+  padding: 5px;
+}
+
+#outputList li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}

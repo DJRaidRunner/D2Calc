@@ -1,0 +1,14 @@
+{
+  "name": "poc-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "papaparse": "^5.5.3"
+  },
+  "devDependencies": {
+    "electron": "^28.2.3"
+  }
+}
