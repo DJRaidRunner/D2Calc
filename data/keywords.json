@@ -1,0 +1,17 @@
+{
+  "Combat": {
+    "Scorch": "#FFA500"
+  },
+  "Debuffs": {
+    "Weaken": "#800080"
+  },
+  "Buffs": {
+    "Amplified": "#1E90FF"
+  },
+  "Stasis": {
+    "Slow": "#00BFFF"
+  },
+  "Strand": {
+    "Unravel": "#228B22"
+  }
+}
