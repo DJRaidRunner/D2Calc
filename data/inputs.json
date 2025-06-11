@@ -1,0 +1,7 @@
+[
+  {"category": "Melee", "input": "Solar Melee", "output": "When Solar Melee -> grant Scorch."},
+  {"category": "Grenade", "input": "Void Grenade", "output": "When Void Grenade -> grant Weaken."},
+  {"category": "Buff", "input": "Arc Buff", "output": "When Arc Buff -> enhance Amplified."},
+  {"category": "Melee", "input": "Stasis Melee", "output": "When Stasis Melee -> grant Slow."},
+  {"category": "Super", "input": "Strand Super", "output": "When Strand Super -> grant Unravel."}
+]

@@ -2,13 +2,26 @@
   "name": "poc-app",
   "version": "1.0.0",
   "main": "main.js",
+  "license": "MIT",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
-  "dependencies": {
-    "papaparse": "^5.5.3"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "electron": "^28.2.3"
+    "electron": "^28.2.3",
+    "electron-builder": "^24.6.0"
+  },
+  "build": {
+    "appId": "com.example.pocapp",
+    "files": [
+      "**/*",
+      "!dist",
+      "!build"
+    ]
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
